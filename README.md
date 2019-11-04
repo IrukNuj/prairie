@@ -1,8 +1,7 @@
 # Prairie
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/prairie`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Prairie provides command make it easier to create templates that enhance the convenience of development using github.
+Try to run the `prairie` command after installing Gem as shown below.
 
 ## Installation
 
@@ -14,7 +13,7 @@ gem 'prairie'
 
 And then execute:
 
-    $ bundle
+    $ prairie
 
 Or install it yourself as:
 
@@ -22,7 +21,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Use the `prairie` command to create a template for .githubmessage, issue, and pullrequest before starting development.
 
 ## Development
 
