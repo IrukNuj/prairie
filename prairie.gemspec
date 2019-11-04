@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["IrukNuj"]
   spec.email         = ["b1716568@planet.kanazawa-it.ac.jp"]
 
-  spec.summary       = "Application that creates commit template."
-  spec.description   = "Application that generates `github.message`, `.github/ISSUE_TEMPLATE.md`, `.github/PULL_REQUEST_TEMPLATE.md`."
+  spec.summary       = %q{Create commit template.}
+  spec.description   = %q{Create `.githubmessage`, `.github/ISSUE_TEMPLATE.md`, `.github/PULL_REQUEST_TEMPLATE.md`.}
   spec.homepage      = "https://github.com/iruknuj"
   spec.license       = "MIT"
 
