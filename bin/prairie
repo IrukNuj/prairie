@@ -2,4 +2,4 @@
 
 require "prairie"
 
-Prairie::Runner.run
+Prairie.run
