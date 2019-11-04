@@ -46,7 +46,7 @@ module Prairie
   EOS
 
   def self.run
-    print 'Do you want to create ./github/ISSUE_TEMPLATE.md (y/n)?'
+    puts 'Do you want to create ./github/ISSUE_TEMPLATE.md (y/n)?'
     input = gets.chomp
     if input == 'y'
       Dir.mkdir('./.github') unless FileTest.exist?('./.github')
@@ -54,10 +54,10 @@ module Prairie
       File.open('./.github/ISSUE_TEMPLATES.md', 'w') do |f|
         f.puts(ISSUE_TEMPLATE)
       end
-      print 'Created! .github/ISSUE_TEMPLATES.md'
+      puts 'Created! .github/ISSUE_TEMPLATES.md'
     end
 
-    print 'Do you want to create ./github/PULL_REQUEST_TEMPLATE.md (y/n)?'
+    puts 'Do you want to create ./github/PULL_REQUEST_TEMPLATE.md (y/n)?'
     input = gets.chomp
     if input == 'y'
       Dir.mkdir('./.github') unless FileTest.exist?('./.github')
@@ -65,17 +65,17 @@ module Prairie
       File.open('./.github/PULL_REQUEST_TEMPLATE.md', 'w') do |f|
         f.puts(PULL_REQUEST_TEMPLATE)
       end
-      print 'Created! .github/PULL_REQUEST_TEMPLATE.md'
+      puts 'Created! .github/PULL_REQUEST_TEMPLATE.md'
     end
 
-    print 'Do you want to create ./.gitmessage (y/n)?'
+    puts 'Do you want to create ./.gitmessage (y/n)?'
     input = gets.chomp
     if input == 'y'
       FileUtils.touch('./.gitmessage')
       File.open('./.gitmessage', 'w') do |f|
         f.puts(COMMIT_MESSAGE_TEMPLATE)
       end
-      print 'Created! .gitmessage'
+      puts 'Created! .gitmessage'
     end
   end
 end
