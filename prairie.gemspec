@@ -3,7 +3,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "prairie/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "prairie"
+  spec.name          = "prairie-ghtpl"
   spec.version       = Prairie::VERSION
   spec.authors       = ["IrukNuj"]
   spec.email         = ["b1716568@planet.kanazawa-it.ac.jp"]
