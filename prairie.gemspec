@@ -10,13 +10,13 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Create commit template.}
   spec.description   = %q{Create `.githubmessage`, `.github/ISSUE_TEMPLATE.md`, `.github/PULL_REQUEST_TEMPLATE.md`.}
-  spec.homepage      = "https://github.com/iruknuj"
+  spec.homepage      = "https://github.com/IrukNuj/prairie"
   spec.license       = "MIT"
 
   # spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
-  # spec.metadata["homepage_uri"] = spec.homepage
-  # spec.metadata["source_code_uri"] = "https://github.com/IrukNuj/prairie"
+  spec.metadata["homepage_uri"] = spec.homepage
+  spec.metadata["source_code_uri"] = "https://github.com/IrukNuj/prairie"
   # spec.metadata["changelog_uri"] = "https://github.com/IrukNuj/prairie"
 
   # Specify which files should be added to the gem when it is released.
