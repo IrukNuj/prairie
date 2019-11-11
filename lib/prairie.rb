@@ -50,11 +50,11 @@ EOS
     input = gets.chomp
     if input == 'y'
       Dir.mkdir('./.github') unless FileTest.exist?('./.github')
-      FileUtils.touch('./.github/ISSUE_TEMPLATES.md')
-      File.open('./.github/ISSUE_TEMPLATES.md', 'w') do |f|
+      FileUtils.touch('./.github/ISSUE_TEMPLATE.md')
+      File.open('./.github/ISSUE_TEMPLATE.md', 'w') do |f|
         f.puts(ISSUE_TEMPLATE)
       end
-      puts 'Created! .github/ISSUE_TEMPLATES.md'
+      puts 'Created! .github/ISSUE_TEMPLATE.md'
     end
 
     puts 'Do you want to create ./github/PULL_REQUEST_TEMPLATE.md (y/n)?'
