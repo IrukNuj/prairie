@@ -4,46 +4,46 @@ module Prairie
   class Error < StandardError; end
 
   ISSUE_TEMPLATE = <<-EOS
-    ## Issueのタイトル / Title
-    
-    ## 問題内容 / What
-    
-    ## 現状 / Now
-    
-    ## 問題の詳細 / Details
-    
-    ## 問題の解決策または理想 / How, ideals
+## Issueのタイトル / Title
 
-  EOS
+## 問題内容 / What
+
+## 現状 / Now
+
+## 問題の詳細 / Details
+
+## 問題の解決策または理想 / How, ideals
+
+EOS
 
   PULL_REQUEST_TEMPLATE = <<-EOS
-    ## Issueの番号 / Title
+## Issueの番号 / Title
 
-    ## どのように解決したか / How
+## どのように解決したか / How
 
-    ## なぜそのような解決策を取ったのか / Why
+## なぜそのような解決策を取ったのか / Why
 
-  EOS
+EOS
 
   COMMIT_MESSAGE_TEMPLATE = <<-EOS
     
-    # ==== Emoji ====
-    # 🎉  :tada: 初めてのコミット（Initial Commit）
-    # 🔖  :bookmark: バージョンタグ（Version Tag）
-    # ✨  :sparkles: 新機能（New Feature）
-    # 🐛  :bug: バグ修正（Bugfix）
-    # ♻️  :recycle: リファクタリング(Refactoring)
-    # 📚  :books: ドキュメント（Documentation）
-    # 🎨  :art: デザインUI/UX(Accessibility)
-    # 🐎  :horse: パフォーマンス（Performance）
-    # 🔧  :wrench: ツール（Tooling）
-    # 🚨  :rotating_light: テスト（Tests）
-    # 💩  :hankey: 非推奨追加（Deprecation）
-    # 🗑️  :wastebasket: 削除（Removal）
-    # 🚧  :construction: WIP(Work In Progress)
+# ==== Emoji ====
+# 🎉  :tada: 初めてのコミット（Initial Commit）
+# 🔖  :bookmark: バージョンタグ（Version Tag）
+# ✨  :sparkles: 新機能（New Feature）
+# 🐛  :bug: バグ修正（Bugfix）
+# ♻️  :recycle: リファクタリング(Refactoring)
+# 📚  :books: ドキュメント（Documentation）
+# 🎨  :art: デザインUI/UX(Accessibility)
+# 🐎  :horse: パフォーマンス（Performance）
+# 🔧  :wrench: ツール（Tooling）
+# 🚨  :rotating_light: テスト（Tests）
+# 💩  :hankey: 非推奨追加（Deprecation）
+# 🗑️  :wastebasket: 削除（Removal）
+# 🚧  :construction: WIP(Work In Progress)
 
-    # This template quoted here (https://gist.github.com/Jung0/56d527ed5d2c783661f7d56c46332308).
-  EOS
+# This template quoted here (https://gist.github.com/Jung0/56d527ed5d2c783661f7d56c46332308).
+EOS
 
   def self.run
     puts 'Do you want to create ./github/ISSUE_TEMPLATE.md (y/n)?'
