@@ -1,6 +1,6 @@
 # Prairie
 
-![prairie 001](https://user-images.githubusercontent.com/33862939/68557464-3f6ec780-0479-11ea-9742-a413d4de87f0.png)
+![prairie 001](https://user-images.githubusercontent.com/33862939/68557759-26b2e180-047a-11ea-81c9-ab1e12c3b452.png)
 
 Prairie provides command make it easier to create templates that enhance the convenience of development using github.
 Try to run the `prairie` command after installing Gem as shown below.
