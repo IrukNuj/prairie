@@ -10,7 +10,7 @@ Try to run the `prairie` command after installing Gem as shown below.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'prairie'
+gem 'prairie-ghtpl'
 ```
 
 And then execute:
@@ -19,7 +19,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install prairie
+    $ gem install prairie-ghtpl
 
 ## Usage
 
